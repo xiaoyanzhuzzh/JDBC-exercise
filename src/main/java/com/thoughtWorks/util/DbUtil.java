@@ -10,8 +10,8 @@ public class DbUtil {
     private String password = "123";
 
     Connection connection = null;
-   
-    public void getConnection(){
+
+    public Connection getConnection(){
         try {
             Class.forName(driverName);
             connection = DriverManager.getConnection(url, userName, password);
@@ -20,5 +20,6 @@ public class DbUtil {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+        return connection;
     }
 }
