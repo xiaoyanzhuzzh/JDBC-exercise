@@ -2,9 +2,7 @@ package com.thoughtWorks.util;
 
 import java.sql.*;
 
-/**
- * Created by zhangzhihui on 14-10-25.
- */
+
 public class DbUtil {
     private String driverName = "com.mysql.jdbc.Driver";
     private String url = "jdbc:mysql://localhost:3306/management";
@@ -12,9 +10,7 @@ public class DbUtil {
     private String password = "123";
 
     Connection connection = null;
-    Statement statement = null;
-    ResultSet rs = null;
-
+   
     public void getConnection(){
         try {
             Class.forName(driverName);
