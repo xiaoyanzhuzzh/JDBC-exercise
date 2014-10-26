@@ -2,10 +2,20 @@ package com.thoughtWorks.vo;
 
 //ORM(Object relation mapping)
 public class Item {
+    private int id;
     private String barcode;
     private String name;
     private String unit;
     private double price;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getBarcode() {
         return barcode;
     }
@@ -38,7 +48,8 @@ public class Item {
         this.price = price;
     }
 
-    public Item(String barcode, String name, String unit, double price) {
+    public Item(int id, String barcode, String name, String unit, double price) {
+        this.id = id;
         this.barcode = barcode;
         this.name = name;
         this.unit = unit;
@@ -51,7 +62,8 @@ public class Item {
     @Override
     public String toString() {
         return "Item{" +
-                "barcode='" + barcode + '\'' +
+                "id=" + id +
+                ", barcode='" + barcode + '\'' +
                 ", name='" + name + '\'' +
                 ", unit='" + unit + '\'' +
                 ", price=" + price +
