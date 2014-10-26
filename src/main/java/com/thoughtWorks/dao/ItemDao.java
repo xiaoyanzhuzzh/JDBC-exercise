@@ -3,7 +3,6 @@ package com.thoughtWorks.dao;
 import com.thoughtWorks.util.DbUtil;
 import com.thoughtWorks.vo.Item;
 
-import java.beans.*;
 import java.sql.*;
 import java.sql.Statement;
 import java.util.ArrayList;
