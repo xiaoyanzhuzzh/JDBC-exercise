@@ -122,9 +122,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/util/DbUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/posProject/DbTest.java" />
         <option value="dbtable:/e185f028/0b0035a9-bcf7-4f92-8c04-124609fefe62/management..items" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Promotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/ItemDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/db/DbTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java" />
       </list>
     </option>
   </component>
@@ -646,12 +647,12 @@
       <updated>1414219178090</updated>
       <workItem from="1414219179772" duration="12228000" />
       <workItem from="1414287119631" duration="4215000" />
-      <workItem from="1414291364529" duration="3519000" />
+      <workItem from="1414291364529" duration="5738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19962000" />
+    <option name="totallyTimeSpent" value="22181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="7" width="1366" height="681" extended-state="2" />
@@ -706,7 +707,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java</url>
-          <line>59</line>
+          <line>57</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -732,7 +733,7 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1414294839685" expanded="true" signature="29:123" placeholder="update items..." />
+            <marker date="1414299922280" expanded="true" signature="29:123" placeholder="update items..." />
           </folding>
         </state>
       </provider>
