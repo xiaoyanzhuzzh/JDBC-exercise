@@ -48,4 +48,13 @@ public class Promotion {
         this.type = type;
         this.itemList = itemList;
     }
+
+    @Override
+    public String toString() {
+        return "Promotion{" +
+                "promotionId=" + promotionId +
+                ", promotionDescribe='" + promotionDescribe + '\'' +
+                ", type=" + type +
+                '}';
+    }
 }
