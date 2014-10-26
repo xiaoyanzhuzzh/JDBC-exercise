@@ -1,12 +1,12 @@
 package com.thoughtWorks.db;
 
 import com.thoughtWorks.dao.ItemDao;
-import com.thoughtWorks.vo.Item;
+import com.thoughtWorks.dao.ItemDaoImpl;
 
 public class DbTest {
 
     public static void main(String[] args){
-      ItemDao itemDao = new ItemDao();
+      ItemDao itemDao = new ItemDaoImpl();
       System.out.println(itemDao.getItemById(2));
 //        Item item = new Item(null,"ITEM000009", "香蕉", "斤", 4.5);
 //        itemDao.insertItem(item);
