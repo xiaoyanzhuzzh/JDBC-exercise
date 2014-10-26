@@ -115,11 +115,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/util/DbUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/posProject/DbTest.java" />
         <option value="dbtable:/e185f028/0b0035a9-bcf7-4f92-8c04-124609fefe62/management..items" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/ItemDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/db/DbTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java" />
       </list>
     </option>
   </component>
@@ -349,7 +349,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/mysql-connector-java-5.1.20-bin.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/guessNumber" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
