@@ -7,15 +7,15 @@ public class DbTest {
 
     public static void main(String[] args){
       ItemDao itemDao = new ItemDao();
-        System.out.println(itemDao.getItemById(2));
-//        Item item = new Item("ITEM000005", "娃哈哈", "瓶", 3.0);
+      System.out.println(itemDao.getItemById(2));
+//        Item item = new Item(null,"ITEM000009", "香蕉", "斤", 4.5);
 //        itemDao.insertItem(item);
 
-//        Item item2 = new Item("ITEM000002","苹果","斤",5.00);
-//        itemDao.updateItem(item2, 4);
+//        Item item2 = new Item("4","ITEM000001","葡萄","斤",6.5);
+//        itemDao.updateItem(item2);
 
         System.out.println(itemDao.getItems());
-//        itemDao.deleteItemById(11);
+        itemDao.deleteItemById(2);
 
     }
 
