@@ -98,11 +98,12 @@ public class ItemDao {
             e.printStackTrace();
         }
     }
-    public void updateItem(Item item){
 
-        String sql = "update items set name = '"+item.getName()
+    public void updateItem(Item item,int id){
+
+        String sql = "update items set barcode = '"+item.getBarcode()+"', name = '"+item.getName()
                 +"',unit = '"+item.getUnit()+"' ,price = '"+item.getPrice()
-                +"' where barcode = '"+item.getBarcode()+"'";
+                +"' where id = '"+id+"'";
         Connection connection = dbUtil.getConnection();
         Statement statement = null;
         try {
