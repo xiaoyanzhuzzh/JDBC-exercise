@@ -50,10 +50,13 @@ public class ItemDao {
             statement = connection.createStatement();
             rs = statement.executeQuery(sql);
             while(rs.next()){
-                items.add(new Item(rs.getString("barcode"),
+                items.add(new Item(
+                        rs.getInt("id"),
+                        rs.getString("barcode"),
                         rs.getString("name"),
                         rs.getString("unit"),
-                        rs.getDouble("price")));
+                        rs.getDouble("price")
+                ));
             }
         } catch (SQLException e) {
             e.printStackTrace();
