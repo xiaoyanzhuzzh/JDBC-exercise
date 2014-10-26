@@ -32,17 +32,38 @@ public class ItemDao {
         }catch (SQLException e) {
             e.printStackTrace();
         }
+        return item;
     }
+
+    public List<Item> getItems(){
+        List<Item> items = new ArrayList<Item>();
+        String sql = "SELECT * FROM items";
+        Connection connection = dbUtil.getConnection();
+        Statement statement = null;
+        ResultSet rs = null;
+        try {
+            statement = connection.createStatement();
+            rs = statement.executeQuery(sql);
+            while(rs.next()){
+                items.add(new Item(rs.getString("barcode"),
+                        rs.getString("name"),
+                        rs.getString("unit"),
+                        rs.getDouble("price")));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return items;
+    }
+
     public void insertItem(Item item){
 
-        String sql = "insert into items values('"+item.getBarcode()+
+        String sql = "insert into items values(null, '"+item.getBarcode()+
                 "','"+item.getName()+"','"+item.getUnit()+"', "+item.getPrice()+")";
         Connection connection = dbUtil.getConnection();
         Statement statement = null;
         try {
-
             statement = connection.createStatement();
-
             int result = statement.executeUpdate(sql);
             if(result > 0){
                 System.out.println("插入成功");
