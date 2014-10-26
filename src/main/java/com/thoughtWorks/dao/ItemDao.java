@@ -24,7 +24,7 @@ public class ItemDao {
             rs = statement.executeQuery(sql);
             rs.next();
 
-            item = new Item(rs.getInt("id"),
+            item = new Item(rs.getString("id"),
                     rs.getString("barcode"),
                     rs.getString("name"),
                     rs.getString("unit"),
@@ -51,7 +51,7 @@ public class ItemDao {
             rs = statement.executeQuery(sql);
             while(rs.next()){
                 items.add(new Item(
-                        rs.getInt("id"),
+                        rs.getString("id"),
                         rs.getString("barcode"),
                         rs.getString("name"),
                         rs.getString("unit"),
@@ -107,11 +107,11 @@ public class ItemDao {
         }
     }
 
-    public void updateItem(Item item,int id){
+    public void updateItem(Item item){
 
         String sql = "update items set barcode = '"+item.getBarcode()+"', name = '"+item.getName()
                 +"',unit = '"+item.getUnit()+"' ,price = '"+item.getPrice()
-                +"' where id = '"+id+"'";
+                +"' where id = '"+item.getId()+"'";
         Connection connection = dbUtil.getConnection();
         Statement statement = null;
         try {
