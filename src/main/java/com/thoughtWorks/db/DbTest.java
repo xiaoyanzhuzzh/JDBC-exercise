@@ -7,6 +7,7 @@ public class DbTest {
 
     public static void main(String[] args){
       ItemDao itemDao = new ItemDao();
+        System.out.println(itemDao.getItemById(2));
 //        Item item = new Item("ITEM000005", "娃哈哈", "瓶", 3.0);
 //        itemDao.insertItem(item);
 
@@ -14,7 +15,7 @@ public class DbTest {
 //        itemDao.updateItem(item2, 4);
 
         System.out.println(itemDao.getItems());
-        itemDao.deleteItemById(11);
+//        itemDao.deleteItemById(11);
 
     }
 
