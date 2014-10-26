@@ -1,18 +1,23 @@
 package com.thoughtWorks.vo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //ORM(Object relation mapping)
 public class Item {
-    private int id;
+    private String id;
     private String barcode;
     private String name;
     private String unit;
     private double price;
 
-    public int getId() {
+    private List<Promotion> promotionList = new ArrayList<Promotion>();
+
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
