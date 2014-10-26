@@ -23,12 +23,8 @@ public class ItemDao {
             statement = connection.createStatement();
             rs = statement.executeQuery(sql);
             rs.next();
-            String barcode = rs.getString("barcode");
-            String name = rs.getString("name");
-            String unit = rs.getString("unit");
-            double price = rs.getDouble("price");
 
-            System.out.println("条形码：" + barcode +"名称："+ name + "单价：" + unit + "单价：" + price + "元");
+            item = new Item(rs.getString("barcode"), rs.getString("name"), rs.getString("unit"), rs.getDouble("price"));
 
             rs.close();
             statement.close();
