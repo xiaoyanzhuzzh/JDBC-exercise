@@ -77,8 +77,8 @@
       <file leaf-file-name="ItemDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/ItemDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.36" vertical-offset="0" max-vertical-offset="342">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.88" vertical-offset="1" max-vertical-offset="342">
+              <caret line="11" column="31" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Promotion.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Promotion.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Promotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5339806" vertical-offset="339" max-vertical-offset="774">
+            <state vertical-scroll-proportion="-1.56" vertical-offset="465" max-vertical-offset="774">
               <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,6 +122,18 @@
                 <element signature="method#Promotion#0;class#Promotion#0" expanded="false" />
                 <element signature="method#Promotion#1;class#Promotion#0" expanded="false" />
                 <element signature="method#Promotion#2;class#Promotion#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PromotionDao.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/PromotionDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.111801244" vertical-offset="0" max-vertical-offset="342">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/db/DbTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/ItemDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Promotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/PromotionDao.java" />
       </list>
     </option>
   </component>
@@ -671,12 +684,12 @@
       <updated>1414219178090</updated>
       <workItem from="1414219179772" duration="12228000" />
       <workItem from="1414287119631" duration="4215000" />
-      <workItem from="1414291364529" duration="12080000" />
+      <workItem from="1414291364529" duration="12347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28523000" />
+    <option name="totallyTimeSpent" value="28790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="7" width="1366" height="681" extended-state="2" />
@@ -933,6 +946,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.04" vertical-offset="933" max-vertical-offset="1350">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#329#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Promotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.56" vertical-offset="465" max-vertical-offset="774">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#251#0" expanded="true" />
+            <element signature="method#Promotion#0;class#Promotion#0" expanded="false" />
+            <element signature="method#Promotion#1;class#Promotion#0" expanded="false" />
+            <element signature="method#Promotion#2;class#Promotion#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/ItemDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6" vertical-offset="1080" max-vertical-offset="1764">
@@ -961,37 +1001,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/ItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.36" vertical-offset="0" max-vertical-offset="342">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.88" vertical-offset="1" max-vertical-offset="342">
+          <caret line="11" column="31" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/dao/PromotionDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.04" vertical-offset="933" max-vertical-offset="1350">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.111801244" vertical-offset="0" max-vertical-offset="342">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#318#329#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Promotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5339806" vertical-offset="339" max-vertical-offset="774">
-          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#251#0" expanded="true" />
-            <element signature="method#Promotion#0;class#Promotion#0" expanded="false" />
-            <element signature="method#Promotion#1;class#Promotion#0" expanded="false" />
-            <element signature="method#Promotion#2;class#Promotion#0" expanded="false" />
           </folding>
         </state>
       </provider>
