@@ -24,7 +24,12 @@ public class ItemDao {
             rs = statement.executeQuery(sql);
             rs.next();
 
-            item = new Item(rs.getString("barcode"), rs.getString("name"), rs.getString("unit"), rs.getDouble("price"));
+            item = new Item(rs.getInt("id"),
+                    rs.getString("barcode"),
+                    rs.getString("name"),
+                    rs.getString("unit"),
+                    rs.getDouble("price")
+            );
 
             rs.close();
             statement.close();
