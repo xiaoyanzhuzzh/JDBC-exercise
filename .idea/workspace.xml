@@ -697,7 +697,16 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thoughtWorks/vo/Item.java</url>
+          <line>59</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
