@@ -3,13 +3,18 @@ package com.thoughtWorks.dao;
 import com.thoughtWorks.util.DbUtil;
 import com.thoughtWorks.vo.Item;
 
+import java.beans.*;
 import java.sql.*;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ItemDao {
     private DbUtil dbUtil = new DbUtil();
 
-    public void getItem() {
-        String sql = "SELECT * FROM items";
+    public Item getItemById(int id) {
+        Item item = null;
+        String sql = "SELECT * FROM items WHERE id = '"+id+"'";
         Connection connection = dbUtil.getConnection();
         Statement statement = null;
         ResultSet rs = null;
