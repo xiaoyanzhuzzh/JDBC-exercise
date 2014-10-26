@@ -78,8 +78,8 @@ public class ItemDao {
         }
     }
 
-    public void deleteItemByBarcode(String barcode){
-        String sql = "delete from items where barcode = '"+barcode+"'";
+    public void deleteItemById(int id){
+        String sql = "delete from items where id = '"+id+"'";
         Connection connection = dbUtil.getConnection();
         Statement statement = null;
         try {
