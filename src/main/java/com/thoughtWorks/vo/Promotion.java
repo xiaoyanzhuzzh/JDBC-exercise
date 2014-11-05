@@ -3,7 +3,7 @@ package com.thoughtWorks.vo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Promotion {
+public abstract class Promotion {
 
     private int promotionId;
     private String promotionDescribe;
@@ -49,12 +49,5 @@ public class Promotion {
         this.itemList = itemList;
     }
 
-    @Override
-    public String toString() {
-        return "Promotion{" +
-                "promotionId=" + promotionId +
-                ", promotionDescribe='" + promotionDescribe + '\'' +
-                ", type=" + type +
-                '}';
-    }
+    public abstract double calculation(Item item, double number);
 }
